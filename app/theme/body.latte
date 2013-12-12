@@ -1,0 +1,90 @@
+  <div id="header">
+   <div id="header-logo">
+    <a id="logo" href="{weblink}" title="XSC" rel="home"><img src="{styleImagesDir}logo.png" alt="Logo"></a>
+    <p class="header-description">Economy Minecraft server</p>
+    <div class="clear"></div>
+   </div>
+   <div id="login">
+    {user_panel}
+   </div>
+  </div>
+  <div id="line"></div>
+  <!-- Menu -->
+  <div id="menu">
+   <div id="primary-nav">
+    <div class="menu">
+     <ul>
+      <li class="page_item page-item-1"><a href="{weblink}">Hlavní stránka</a></li>
+      <li class="page_item page-item-2"><a href="?page=obout_server">O serveru</a></li>
+      <li class="page_item page-item-3"><a href="?page=connect">Jak se připojit</a></li>
+      <li class="page_item page-item-5"><a href="?page=rules">Pravidla</a></li>
+      <li class="page_item page-item-6"><a href="?page=team">Admin Team</a></li>
+      <li class="page_item page-item-6"><a href="http://minecraft.elyz.cz/informace/">Návody a info</a></li>
+      <li class="page_item page-item-7"><a href="?page=contact">Kontakt</a></li>
+      <li class="page_item page-item-8"><a href="?page=donate">Podpořte nás</a></li>
+      <li class="page_item page-item-9"><a href="?page=vip">V.I.P.</a></li>
+     </ul>
+    </div>
+    <div class="clear"></div>
+   </div>
+  </div>
+  <!-- Menu konec -->
+  <!-- Slider -->
+  <div id="slider">
+   <img src="{styleImagesDir}slider/1.jpg" alt="">
+  </div>
+  <!-- Slider konec -->
+  <!-- Content -->
+  <div id="wrap">
+   <!-- Novinky -->
+   <div id="main">
+   <!-- POSTER -->
+    {page}
+    <!-- POSTER END -->
+    <div id="paginate">
+     <div id="paginate-left"></div>
+     <div id="paginate-right"></div>
+    </div>
+   </div>
+   <!-- Novinky konec -->
+   <!-- RightPanel -->
+   <div id="sidebar">
+    <div class="sidebar-box-wrap">
+     <div class="sidebar-box">
+      <h4>Server Status</h4>
+      <ul>
+       <li class="h3"><font color="initial" size="16">{ServerMotd}</font></li>
+       <li><font color="#258ADC" style="font-size: 18px;">IP: {ServerIP}:{ServerPort}</font></li>
+       <li><font color="#258ADC">Server je</font> {ServerStatus}</li>
+       <li><font color="#258ADC">Hráči: </font> <font color="#258ADC">{ServerOnlinePlayers} / {ServerMaxPlayers}</font></li>
+       <li></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-43258318-2', 'elyz.cz');ga('send', 'pageview');</script>
+<!--   <div id="sidebar">-->
+<!--    <div class="sidebar-box-wrap">-->
+<!--     <div class="sidebar-box">-->
+<!--      <h4>Chat box</h4>-->
+<!--      <div id="chat-cont">-->
+<!--       <div id="chat"></div>-->
+<!--      </div>-->
+<!--     </div>-->
+<!--    </div>-->
+<!--   </div>-->
+   <div class="clear"></div>
+   <div class="clear"></div>
+   <!-- RightPanel konec -->
+  </div>
+  <!-- Content konec -->
+  <div id="footer-wrap">
+   <div id="footer-main">
+    <div id="footer" class="sliding-effect">
+     <div id="footer-menu">Desing Vytvořil: <a href="http://mypixel.cz">Mypixel</a> - David Dvořáček (Irenka) | Systém nakodoval Sam</div>
+     <div id="footer-copy">all righrts reserved | eLyz.cz <img src="{styleImagesDir}mypixel.png" /></div>
+     <div class="clear"></div>
+    </div>
+   </div>
+  </div>
+ </body>
